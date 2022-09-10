@@ -16,7 +16,7 @@ export default function SignInPage({ providers }) {
      {
       Object.values(providers).map((provider) => (
 
-<div onClick={() => signIn(provider.id, {
+<div key={providers.name} onClick={() => signIn(provider.id, {
   callbackUrl: "/"
 })} className="ml-10 mt-8 flex border-2 rounded-full w-[270px] justify-between p-2 cursor-pointer transition-all duration-200 hover:bg-sky-100" >
   <h10></h10><h5 className="font-bold">Sign up with {provider.name}</h5>

@@ -1,12 +1,8 @@
-import React, {SVGProps} from 'react'
+import React from 'react'
 
-interface Props {
-    Icon:(props: SVGProps<SVGSVGElement>) => JSX.Element
-    title: string, active:boolean;
-  
-  }
 
-export default function SidebarMenuItems({Icon, title, active}: Props) {
+
+export default function SidebarMenuItems({Icon, title, active}) {
   return (
     <div className="group flex max-w-fit cursor-pointer flex items-center space-x-5 rounded-full px-8 py-3 transiton-all duration-200 hover:bg-gray-200 ">
 

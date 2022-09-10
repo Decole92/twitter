@@ -1,11 +1,11 @@
 import React ,{useEffect,useRef, useState} from 'react'
 import { useRecoilState } from "recoil"
-import {modalState} from "../../atom/modalAtom"
+import {modalState} from "/atom/modalAtom"
 import Modal from "react-modal";
-import {postIdState} from "../../atom/modalAtom"
+import {postIdState} from "/atom/modalAtom"
 import { XMarkIcon, CalendarIcon, FaceSmileIcon, GifIcon, MapPinIcon, PhotoIcon, } from '@heroicons/react/24/outline';
 import { collection,addDoc, doc, onSnapshot, serverTimestamp } from 'firebase/firestore';
-import { db } from '../../firebase';
+import { db } from '/firebase';
 import Moment from 'react-moment'; 
 import { useRouter } from 'next/router'
 

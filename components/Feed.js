@@ -4,7 +4,7 @@ import { ArrowPathIcon, SparklesIcon } from '@heroicons/react/24/outline'
 import TweetBox from './TweetBox';
 import Post from './Post';
 import {signOut} from "next-auth/react";
-import { db } from '../../firebase';
+import { db } from '/firebase';
 import { collection, onSnapshot, orderBy, query } from 'firebase/firestore';
 import { AnimatePresence, motion } from "framer-motion"
 

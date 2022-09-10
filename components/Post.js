@@ -5,11 +5,11 @@ import { HeartIcon as FilledIcon } from '@heroicons/react/24/solid';
 import Moment from 'react-moment';
 
 import { collection, deleteDoc, doc, onSnapshot, setDoc } from 'firebase/firestore';
-import { db, storage } from '../../firebase';
+import { db, storage } from '/firebase';
 import { deleteObject, ref } from 'firebase/storage';
 import {useRecoilState} from "recoil";
-import {modalState} from "../../atom/modalAtom"
-import {postIdState} from "../../atom/modalAtom"
+import {modalState} from "/atom/modalAtom"
+import {postIdState} from "/atom/modalAtom"
 import { useRouter } from 'next/router';
 
 

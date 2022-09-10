@@ -2,7 +2,7 @@ import { CalendarIcon, FaceSmileIcon, GifIcon, MapPinIcon, PhotoIcon, XMarkIcon 
 import React, { useState, useRef } from 'react'
 import {useSession, signOut} from "next-auth/react"
 import { addDoc, collection, serverTimestamp, updateDoc, doc } from "firebase/firestore";
-import {db, storage} from "../../firebase";
+import {db, storage} from "/firebase";
 import { getDownloadURL, ref, uploadString } from 'firebase/storage';
 
 

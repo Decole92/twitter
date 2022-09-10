@@ -8,11 +8,9 @@ import Moment from 'react-moment';
 import { collection, deleteDoc, doc, onSnapshot, setDoc } from 'firebase/firestore';
 import { db, storage, } from '../../firebase';
 import { deleteObject, ref } from 'firebase/storage';
-import {useRecoilState} from "recoil";
-import {modalState} from "../../atom/modalAtom"
-import {postIdState} from "../../atom/modalAtom"
+
 import { useRouter } from 'next/router';
-import { data } from 'autoprefixer';
+
 
 
 
