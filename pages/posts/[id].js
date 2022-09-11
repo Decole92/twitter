@@ -2,15 +2,15 @@ import React from 'react'
 import { useRouter } from 'next/router'
 
 import Head from 'next/head'
-import Sidebar from '../components/Sidebar'
-import Feed from '../components/Feed'
-import Widgets from '../components/Widgets'
+import Sidebar from '../../components/Sidebar'
+import Feed from '../../components/Feed'
+import Widgets from '../../components/Widgets'
 import { useSession, signOut } from "next-auth/react"
 import { AnimatePresence, motion } from 'framer-motion'
-import Post from '../components/Post'
-import Comments from '../components/Comments'
+import Post from '../../components/Post'
+import Comments from '../../components/Comments'
 import { useEffect, useState, useRef } from 'react'
-import CommentModal from '../components/CommentModal';
+import CommentModal from '../../components/CommentModal';
 import { getDownloadURL, ref, uploadString } from 'firebase/storage';
 
 import { ArrowLeftIcon, CalendarIcon, FaceSmileIcon, GifIcon, MapPinIcon, PhotoIcon, XMarkIcon } from '@heroicons/react/24/outline'

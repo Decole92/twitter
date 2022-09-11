@@ -83,7 +83,7 @@ setLoading(false);
 <div className="flex space-x-2 p-5  border-b">
 
  
-<img onClick={() => signOut()}  className="mt-4 w-14 h-14 rounded-full" alt="user-photo" src={session?.user.image} />
+<img onClick={() => signOut()}  className="mt-4 w-14 h-14 rounded-full cursor-pointer" alt="user-photo" src={session?.user.image} />
 
 <div className="flex flex-1 items-center pl-2 ">
   <div className="flex flex-1 flex-col">

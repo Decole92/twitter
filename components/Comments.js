@@ -6,7 +6,7 @@ import { HeartIcon as FilledIcon } from '@heroicons/react/24/solid';
 import Moment from 'react-moment';
 
 import { collection, deleteDoc, doc, onSnapshot, setDoc } from 'firebase/firestore';
-import { db, storage, } from '../../firebase';
+import { db, storage, } from '../firebase';
 import { deleteObject, ref } from 'firebase/storage';
 
 import { useRouter } from 'next/router';
