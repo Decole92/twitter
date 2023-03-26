@@ -15,6 +15,18 @@
     "jsx": "preserve",
     "incremental": true
   },
-  "include": ["env.local", "next-env.d.ts", "**/*.ts", "**/*.tsx", "component/Post.js", "component/Sidebar.js", "component/TweetBox.js", "component/Feed.js", "pages/index.js", "pages/_app.js", "component/SidebarMenuItems.js"],
+  "include": [
+    "env.local",
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "component/Post.js",
+    "component/Sidebar.js",
+    "component/TweetBox.js",
+    "component/Feed.js",
+    "pages/index.js",
+    "pages/_app.js",
+    "component/SidebarMenuItems.js"
+  ],
   "exclude": ["node_modules"]
 }
